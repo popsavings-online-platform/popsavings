@@ -1,0 +1,76 @@
+
+body{
+  background-image:URL("../images/deposit1.jpg");
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+/* Center and scale the image nicely
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
+}
+  
+.container {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    padding: 10% 0 0;
+}
+  
+.form{
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+}
+
+
+input{
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  background: white;
+  width: 100%;
+  border:0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+  
+  label {
+    margin-bottom: 0px;
+    display: block;
+    color: red;
+  }
+  
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width:600px){
+    body{
+        width:100%;
+    }
+
+
+
+  
+ 

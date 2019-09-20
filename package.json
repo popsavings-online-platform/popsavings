@@ -1,0 +1,14 @@
+{
+  "name": "decaproject",
+  "version": "1.0.0",
+  "description": "This is a sample project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "group c",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}

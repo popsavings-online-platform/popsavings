@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "firstname": "Christian",
+      "middlename": "Eke",
+      "lastname": "Eze",
+      "email": "ezechristianeke@gmail.com",
+      "gender": "Male",
+      "dateofbirth": "2014-06-18",
+      "password": "Christian",
+      "newpassword": "Christian",
+      "id": 1
+    },
+    {
+      "firstname": "Popsy",
+      "middlename": "Eze",
+      "lastname": "Ben",
+      "email": "popsy@gmail.com",
+      "gender": "male",
+      "dateofbirth": "2009-02-19",
+      "password": "8901",
+      "newpassword": "8901",
+      "id": 2
+    },
+    {
+      "firstname": "favor",
+      "middlename": "peter",
+      "lastname": "Ben",
+      "email": "favor@gmail.com",
+      "gender": "female",
+      "dateofbirth": "2011-12-12",
+      "password": "0000",
+      "newpassword": "0000",
+      "id": 3
+    }, 
+    {
+      "firstname": "",
+      "middlename": "",
+      "lastname": "",
+      "email": "",
+      "gender": "male",
+      "dateofbirth": "",
+      "password": "",
+      "newpassword": "",
+      "id": 20
+    }
+  ],
+  "deposit": [
+    {
+      "id": 1,
+      "userid": 1,
+      "fullname": "",
+      "email": "",
+      "amount": 500,
+      "namecard": "",
+      "creditcard": 1111222233334444,
+      "expmonth": "",
+      "expyear": 2010,
+      "cvv": 321
+    },
+    {
+      "fullname": "favor peter",
+      "email": "favor@gmail.com",
+      "amount": "700",
+      "namecard": "favor peter",
+      "creditcard": "0000 2343 1231 2334",
+      "expmonth": "may",
+      "expyear": "2022",
+      "cvv": "321",
+      "id": 2
+    }
+  ],
+  "withdraw": [
+    {
+      "bankname": "",
+      "accountname": "",
+      "accountnumber": "",
+      "amount": ""
+    }
+  ]
+}

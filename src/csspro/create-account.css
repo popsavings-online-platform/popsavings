@@ -1,0 +1,76 @@
+
+
+body{
+    background-image: url("../images/dashboard.jpg");
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.login h1{
+    color:brown;
+    text-align: center;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    padding: 10% 0 0;
+    /* width: 360px;
+    padding: 10% 0 0;
+    margin: auto; */
+    
+}
+
+
+.form{
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+  }
+
+  input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: white;
+    width: 100%;
+    border:0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+  }
+
+  label {
+    margin-bottom: 0px;
+    display: block;
+    color:limegreen;
+  }
+
+  button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: rgb(7, 26, 39);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: lightslategray;
+}
+
+@media(max-width:600px){
+    body{
+        width:100%;
+    }
+}

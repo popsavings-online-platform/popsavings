@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <title>Create Account</title>
+            <link rel="stylesheet" type="text/css" href="csspro/create-account.css">
+    </head>
+    <body class="login">
+        <div class="container">
+            <div>
+                <h1>Create Account For Free</h1>
+            </div>
+             <div class="form">
+            <form>
+                <label><b>First Name</b></label>
+                <input type="text" id="firstname" name="first name" placeholder="First Name" required>
+               
+                <label><b>Middle Name</b></label>
+                <input type="text" id="middlename" name="middle name" placeholder="Middle Name">
+                
+                <label><b>Last Name</b></label>
+                <input type="text" id="lastname" name="last name" placeholder="Last Name" required>
+                
+                <label><b>Email:</b></label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                
+                <label><b>Gender</b></label>
+                    <select id="gender" name="gender">
+                        <option value="male" required>Male</option>
+                        <option value="female" required>Female</option>
+                    </select>
+                <label><b>Date of Birth</b></label>
+                <input type="date" id="dateofbirth" name="date of birth" required>
+                
+                <label><b>New Password:</b></label>
+                <input type="text/number" id="password" name="new password" placeholder="New Password" required>
+                
+                <label><b>Confirm New Password:</b></label>
+                <input type="text/number" id="newpassword" name="confirm new password" placeholder="Confirm New Password" required>
+                
+                <button id="create"><b>Create Account</b></button>
+            </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="jspro/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="jspro/create-account.js"></script>
+    </body>
+</html>

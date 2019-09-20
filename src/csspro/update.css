@@ -1,0 +1,79 @@
+body{
+   
+    background-size: cover;
+    background-image: url("../images/update.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#message{
+    min-width: 250px;
+    background-color: yellow;
+    color:#000;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    right: 30%;
+    top: 30px;
+    font-size: 17px;
+    margin-right: 30px
+}
+
+.update{
+    margin: auto;
+    width:80%;
+    overflow:hidden;
+    padding: 10% 0 0;
+}
+
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: "Play", sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: black;
+    margin-left: 200px;
+    margin-top: 10px
+}
+
+::placeholder{
+    color:red;
+    font-style: normal;
+    font-size: 18px;
+}
+
+button{
+    border: none;
+    width: 190px;
+    background:white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 30px
+}
+
+button:hover{
+    color:#fff;
+    background-color: black;
+}
+
+
+@media (max-width:600px){
+    body{
+        width:100%;
+    }
